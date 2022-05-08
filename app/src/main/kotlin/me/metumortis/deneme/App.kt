@@ -20,5 +20,6 @@ class App : JavaPlugin() {
 
 fun main() {
     println("Hi")
+
     println(getHWID())
 }
