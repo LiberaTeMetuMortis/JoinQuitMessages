@@ -19,6 +19,6 @@ class App : JavaPlugin() {
 }
 
 fun main() {
-    println("Selam")
+    println("Hi")
     println(getHWID())
 }
