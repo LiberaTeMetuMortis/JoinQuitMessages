@@ -18,13 +18,8 @@ plugins {
 repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
-    maven {
-        url = uri("https://hub.spigotmc.org/nexus/content/repositories/public/")
-
-    }
-    maven {
-        url = uri("https://repo.extendedclip.com/content/repositories/placeholderapi/")
-    }
+    maven("https://hub.spigotmc.org/nexus/content/repositories/public/")
+    maven("https://repo.extendedclip.com/content/repositories/placeholderapi/")
 }
 
 dependencies {
