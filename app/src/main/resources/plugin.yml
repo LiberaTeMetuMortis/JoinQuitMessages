@@ -1,5 +1,11 @@
-main: me.metumortis.deneme.App
-name: Selamlar
+main: me.metumortis.joinquitmessages.JoinQuitMessages
+name: JoinQuitMessages
 author: MetuMortis
 api-version: 1.18
 version: 1.0
+commands:
+  joinquitmessages:
+    description: "Main command"
+    usage: /joinquitmessages
+    aliases:
+      - jqm

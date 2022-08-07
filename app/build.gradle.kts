@@ -49,7 +49,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass.set("me.metumortis.deneme.App")
+    mainClass.set("me.metumortis.joinquitmessages.JoinQuitMessages")
 }
 
 
@@ -67,6 +67,6 @@ java {
 
 tasks.withType<Jar> {
     manifest {
-        attributes["Main-Class"] = "me.metumortis.deneme.App"
+        attributes["Main-Class"] = "me.metumortis.joinquitmessages.JoinQuitMessages"
     }
 }
